@@ -1,5 +1,3 @@
-# from app import main
-# from tests.confest import test_app
 from tests import test_app
 
 
