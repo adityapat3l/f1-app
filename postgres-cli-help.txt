@@ -1,0 +1,10 @@
+
+-- connect to database web-dev
+\c web_dev
+
+-- list of tables and relations
+\dt
+
+
+-- quit
+\q
