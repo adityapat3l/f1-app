@@ -1,0 +1,10 @@
+
+-- Up and build in detached mode
+docker-compose up -d --build
+
+-- get the logs for a given service (in this case, web)
+docker-compose logs web
+
+-- Get into the web-db service with the user postgres
+docker-compose exec web-db psql -U postgres
+
