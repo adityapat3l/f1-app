@@ -6,5 +6,9 @@ docker-compose up -d --build
 docker-compose logs web
 
 -- Get into the web-db service with the user postgres
-docker-compose exec web-db psql -U postgres
+docker-compose exec <service> <command for service>
+eg. docker-compose exec web-db psql -U postgres
+
+-- SSH into the container
+docker-compose exec -it <container name> /bin/bash
 
